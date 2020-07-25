@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="/eel.js"></script>
+        <script type="text/javascript">
+        eel.expose(myFunction);               // Expose this function to Python
+        myFunction();
+        eel.say_hello_py();  // Call a Python function
+        function myFunction() {
+        document.getElementById("demo");}
+        </script>
+    </head>
+    <body>
+     <a href="http://0.0.0.0:5001/"><div id="demo"></div></a>
+    </body>
+</html>
